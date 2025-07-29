@@ -11,7 +11,7 @@ const MobileMenu = ( {isMobileMenuOpen, setIsMobileMenuOpen, handleDropdownToggl
         <div className="flex items-center justify-between p-6 border-b border-gray-200 bg-gradient-to-r from-orange-500 to-red-500">
           <div className="text-white">
             <h2 className="text-xl font-bold">Hundhwe</h2>
-            <p className="text-sm opacity-90">{currentLanguage === 'en' ? 'Cultural Heritage' : 'Dhoch gi Timbe'}</p>
+            <p className="text-sm opacity-90">{currentLanguage === 'en' ? 'Cultural Heritage' : 'Kitwa gi Timbewa'}</p>
           </div>
           <button
             onClick={() => setIsMobileMenuOpen(false)}
