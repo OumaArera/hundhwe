@@ -42,7 +42,7 @@ const HeroSection = ({ currentLanguage = 'en' }) => {
       subtitle: "Ka owuok ugwe",
       luoSubtitle: "Echoes of the Dawn",
       description: "Achiel ka achiel nyaka e chenro mar timbe Luo, dhowa, kod kitwa. Yud sigana mosechungʼ kuom tiengewa kendo pod miyowa siso mar ndalo mabiro.",
-      cta: "Ng'e uru Timbewa",
+      cta: "Ng'e Timbewa",
       stats: [
         { number: "1000+", label: "Sigana mag Timbewa" },
         { number: "50+", label: "Wende Machon" },
