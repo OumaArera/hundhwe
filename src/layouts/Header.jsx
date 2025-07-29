@@ -2,7 +2,11 @@ import React, { useState } from 'react';
 import { 
     Menu, Globe, Sun, TreePine, Users, 
     BookOpen, Heart, Crown, Flower,
-    Languages, Milestone
+    Languages, Milestone, PawPrint,
+    Hammer, UtensilsCrossed, Calculator,
+    Quote, HelpCircle, HeartHandshake,
+    Music, Feather, Cross, Church,
+    Shirt, Sparkles
 } from 'lucide-react';
 import Logo from './Logo';
 import DropdownMenu from './DropdownMenu';
@@ -11,7 +15,6 @@ import MobileMenu from './MobileMenu';
 const Header = ({currentLanguage, setCurrentLanguage}) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
-  // const [currentLanguage, setCurrentLanguage] = useState('luo');
 
   const navigationItems = {
     en: [
@@ -28,14 +31,14 @@ const Header = ({currentLanguage, setCurrentLanguage}) => {
         icon: Languages,
         items: [
           { title: "Nature", luoTitle: "Aluora", icon: TreePine, href: "/language/nature" },
-          { title: "Animals", luoTitle: "Lee", icon: TreePine, href: "/language/animals" },
+          { title: "Animals", luoTitle: "Lee", icon: PawPrint, href: "/language/animals" },
           { title: "Human Body", luoTitle: "Dend dhano", icon: Users, href: "/language/body" },
-          { title: "Food and Utensils", luoTitle: "Chiemo kod gige tedo", icon: Heart, href: "/language/food" },
-          { title: "Tools and Technology", luoTitle: "Gige tich kod rang'iny masani", icon: Crown, href: "/language/tools" },
+          { title: "Food and Utensils", luoTitle: "Chiemo kod gige tedo", icon: UtensilsCrossed, href: "/language/food" },
+          { title: "Tools and Technology", luoTitle: "Gige tich kod rang'iny masani", icon: Hammer, href: "/language/tools" },
           { title: "Kinship and Social Hierarchies", luoTitle: "Kido mar anyuola kod rang'iny mar oganda", icon: Users, href: "/language/kinship" },
           { title: "Traditional Medicine", luoTitle: "Thieth Machon", icon: Flower, href: "/language/medicine" },
           { title: "Action Words", luoTitle: "Weche mag Tich", icon: Heart, href: "/language/actions" },
-          { title: "Numbers, Colors, and Descriptors", luoTitle: "Kwan, Kido, kod Gik ma Lero", icon: Crown, href: "/language/descriptors" }
+          { title: "Numbers, Colors, and Descriptors", luoTitle: "Kwan, Kido, kod Gik ma Lero", icon: Calculator, href: "/language/descriptors" }
         ]
       },
       {
@@ -44,11 +47,11 @@ const Header = ({currentLanguage, setCurrentLanguage}) => {
         icon: BookOpen,
         items: [
           { title: "Folktales", luoTitle: "Sigana mag oganda", icon: BookOpen, href: "/stories/folktales" },
-          { title: "Proverbs", luoTitle: "Ngeche", icon: Crown, href: "/stories/proverbs" },
-          { title: "Riddles", luoTitle: "Penjo", icon: Heart, href: "/stories/riddles" },
-          { title: "Myths and Legends", luoTitle: "Ngero mag Jowa", icon: TreePine, href: "/stories/myths" },
-          { title: "Songs", luoTitle: "Wende", icon: Heart, href: "/stories/songs" },
-          { title: "Praise poetry and Clan praises", luoTitle: "Pakruok", icon: Crown, href: "/stories/praise" },
+          { title: "Proverbs", luoTitle: "Ngeche", icon: Quote, href: "/stories/proverbs" },
+          { title: "Riddles", luoTitle: "Penjo", icon: HelpCircle, href: "/stories/riddles" },
+          { title: "Myths and Legends", luoTitle: "Ngero mag Jowa", icon: Sparkles, href: "/stories/myths" },
+          { title: "Songs", luoTitle: "Wende", icon: Music, href: "/stories/songs" },
+          { title: "Praise poetry and Clan praises", luoTitle: "Pakruok", icon: Feather, href: "/stories/praise" },
           { title: "Historical Narratives", luoTitle: "Kamanene", icon: BookOpen, href: "/stories/history" }
         ]
       },
@@ -59,10 +62,10 @@ const Header = ({currentLanguage, setCurrentLanguage}) => {
         items: [
           { title: "Naming ceremonies and birth customs", luoTitle: "Chenro mag chiwo nying kod timbe mag nyuol", icon: Users, href: "/culture/naming" },
           { title: "Initiation and rites of passage", luoTitle: "Siwindhe mihia", icon: Milestone, href: "/culture/initiation" },
-          { title: "Marriage and family traditions", luoTitle: "Kendo kod timbe mag joot", icon: Heart, href: "/culture/marriage" },
-          { title: "Funeral rites and mourning", luoTitle: "Chenro mag liel kod kuyo", icon: Flower, href: "/culture/funeral" },
-          { title: "Religious/spiritual practices and divination", luoTitle: "Timbe mag dini/roho kod lamo", icon: Crown, href: "/culture/spiritual" },
-          { title: "Dressing and adornments", luoTitle: "Lewni kod gik ma itiyogo e loso", icon: Crown, href: "/culture/dressing" }
+          { title: "Marriage and family traditions", luoTitle: "Keny kod apaka mag dak", icon: HeartHandshake, href: "/culture/marriage" },
+          { title: "Funeral rites and mourning", luoTitle: "Chenro mag liel kod kuyo", icon: Cross, href: "/culture/funeral" },
+          { title: "Religious/spiritual practices and divination", luoTitle: "Timbe mag dini/roho kod lamo", icon: Church, href: "/culture/spiritual" },
+          { title: "Dressing and adornments", luoTitle: "Lewni kod gik ma itiyogo e loso", icon: Shirt, href: "/culture/dressing" }
         ]
       }
     ],
@@ -80,14 +83,14 @@ const Header = ({currentLanguage, setCurrentLanguage}) => {
         icon: Languages,
         items: [
           { title: "Aluora", luoTitle: "Nature", icon: TreePine, href: "/language/nature" },
-          { title: "Lee", luoTitle: "Animals", icon: TreePine, href: "/language/animals" },
+          { title: "Lee", luoTitle: "Animals", icon: PawPrint, href: "/language/animals" },
           { title: "Dend dhano", luoTitle: "Human Body", icon: Users, href: "/language/body" },
-          { title: "Chiemo kod gige tedo", luoTitle: "Food and Utensils", icon: Heart, href: "/language/food" },
-          { title: "Gige tich kod rang'iny masani", luoTitle: "Tools and Technology", icon: Crown, href: "/language/tools" },
+          { title: "Chiemo kod gige tedo", luoTitle: "Food and Utensils", icon: UtensilsCrossed, href: "/language/food" },
+          { title: "Gige tich kod rang'iny masani", luoTitle: "Tools and Technology", icon: Hammer, href: "/language/tools" },
           { title: "Kido mar anyuola kod rang'iny mar oganda", luoTitle: "Kinship and Social Hierarchies", icon: Users, href: "/language/kinship" },
           { title: "Thieth Machon", luoTitle: "Traditional Medicine", icon: Flower, href: "/language/medicine" },
           { title: "Weche mag Tich", luoTitle: "Action Words", icon: Heart, href: "/language/actions" },
-          { title: "Kwan, Kido, kod Gik ma Lero", luoTitle: "Numbers, Colors, and Descriptors", icon: Crown, href: "/language/descriptors" }
+          { title: "Kwan, Kido, kod Gik ma Lero", luoTitle: "Numbers, Colors, and Descriptors", icon: Calculator, href: "/language/descriptors" }
         ]
       },
       {
@@ -96,11 +99,11 @@ const Header = ({currentLanguage, setCurrentLanguage}) => {
         icon: BookOpen,
         items: [
           { title: "Sigana mag oganda", luoTitle: "Folktales", icon: BookOpen, href: "/stories/folktales" },
-          { title: "Ngeche", luoTitle: "Proverbs", icon: Crown, href: "/stories/proverbs" },
-          { title: "Penjo", luoTitle: "Riddles", icon: Heart, href: "/stories/riddles" },
-          { title: "Ngero mag Jowa", luoTitle: "Myths and Legends", icon: TreePine, href: "/stories/myths" },
-          { title: "Wende", luoTitle: "Songs", icon: Heart, href: "/stories/songs" },
-          { title: "Pakruok", luoTitle: "Praise poetry and Clan praises", icon: Crown, href: "/stories/praise" },
+          { title: "Ngeche", luoTitle: "Proverbs", icon: Quote, href: "/stories/proverbs" },
+          { title: "Penjo", luoTitle: "Riddles", icon: HelpCircle, href: "/stories/riddles" },
+          { title: "Ngero mag Jowa", luoTitle: "Myths and Legends", icon: Sparkles, href: "/stories/myths" },
+          { title: "Wende", luoTitle: "Songs", icon: Music, href: "/stories/songs" },
+          { title: "Pakruok", luoTitle: "Praise poetry and Clan praises", icon: Feather, href: "/stories/praise" },
           { title: "Kamanene", luoTitle: "Historical Narratives", icon: BookOpen, href: "/stories/history" }
         ]
       },
@@ -111,10 +114,10 @@ const Header = ({currentLanguage, setCurrentLanguage}) => {
         items: [
           { title: "Chenro mag chiwo nying kod timbe mag nyuol", luoTitle: "Naming ceremonies and birth customs", icon: Users, href: "/culture/naming" },
           { title: "Siwindhe mihia", luoTitle: "Initiation and rites of passage", icon: Milestone, href: "/culture/initiation" },
-          { title: "Kendo kod timbe mag joot", luoTitle: "Marriage and family traditions", icon: Heart, href: "/culture/marriage" },
-          { title: "Chenro mag liel kod kuyo", luoTitle: "Funeral rites and mourning", icon: Flower, href: "/culture/funeral" },
-          { title: "Timbe mag dini/roho kod lamo", luoTitle: "Religious/spiritual practices and divination", icon: Crown, href: "/culture/spiritual" },
-          { title: "Lewni kod gik ma itiyogo e loso", luoTitle: "Dressing and adornments", icon: Crown, href: "/culture/dressing" }
+          { title: "Keny kod apaka mag dak", luoTitle: "Marriage and family traditions", icon: HeartHandshake, href: "/culture/marriage" },
+          { title: "Chenro mag liel kod kuyo", luoTitle: "Funeral rites and mourning", icon: Cross, href: "/culture/funeral" },
+          { title: "Timbe mag dini/roho kod lamo", luoTitle: "Religious/spiritual practices and divination", icon: Church, href: "/culture/spiritual" },
+          { title: "Lewni kod gik ma itiyogo e loso", luoTitle: "Dressing and adornments", icon: Shirt, href: "/culture/dressing" }
         ]
       }
     ]
