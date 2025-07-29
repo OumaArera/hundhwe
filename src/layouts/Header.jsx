@@ -39,7 +39,7 @@ const Header = ({currentLanguage, setCurrentLanguage}) => {
         ]
       },
       {
-        title: "Oral Literature and Storytelling",
+        title: "Oral Literature",
         luoTitle: "Mbaka kod Sigana",
         icon: BookOpen,
         items: [
