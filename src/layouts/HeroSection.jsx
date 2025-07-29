@@ -145,21 +145,7 @@ const HeroSection = ({ currentLanguage = 'en' }) => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="space-y-8 animate-fade-in">
           {/* Title */}
-          <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
-              <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent drop-shadow-lg">
-                Hundhwe
-              </span>
-            </h1>
-            <div className="space-y-2">
-              <p className="text-2xl md:text-3xl font-semibold text-orange-300 drop-shadow-md">
-                {currentContent.subtitle}
-              </p>
-              <p className="text-xl md:text-2xl text-orange-200 italic drop-shadow-md">
-                {currentContent.luoSubtitle}
-              </p>
-            </div>
-          </div>
+          
 
           {/* Main Title */}
           <h2 className="text-4xl md:text-6xl font-bold text-white leading-tight drop-shadow-lg">
