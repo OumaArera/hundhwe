@@ -19,7 +19,7 @@ const FeaturesSection = ({ currentLanguage }) => {
       features: [
         {
           icon: Languages,
-          title: "Language Learning",
+          title: "Learn Dholuo",
           description: "Master Dholuo with comprehensive lessons, from basic vocabulary to complex expressions",
           image: language
         },
@@ -31,7 +31,7 @@ const FeaturesSection = ({ currentLanguage }) => {
         },
         {
           icon: Music,
-          title: "Traditional Songs",
+          title: "Luo Songs",
           description: "Listen to authentic Luo music and learn the stories behind each melody",
           image: songs
         },
@@ -44,12 +44,12 @@ const FeaturesSection = ({ currentLanguage }) => {
       ]
     },
     luo: {
-      title: "Ngʼe Mwandu wa mag Kitwa",
-      subtitle: "Ngʼe timbe mabeyo mag Onagi kuom twak marwa",
+      title: "Fweny mwandu mag kit ogandawa",
+      subtitle: "Fweny kit mwandu mabeyo mag oganda Luo kokalo kuom gik ma ne otimore",
       features: [
         {
           icon: Languages,
-          title: "Puonj Dhowa",
+          title: "Puonjri Dholuo",
           description: "Puonjri Dholuo gi tiegruok mopogore opogore, chakre gi weche mayot nyaka mago matek tweta",
           image: language
         },
@@ -61,14 +61,14 @@ const FeaturesSection = ({ currentLanguage }) => {
         },
         {
           icon: Music,
-          title: "Wendewa",
-          description: "Chik iti ne wende mag jo-Luo kendo puonjri kuom sigana manie wende ka wende",
+          title: "Wende Luo",
+          description: "Winj wende mag jo-Luo kendo ifweny tiend weche ma wendego hulo",
           image: songs
         },
         {
           icon: Heart,
           title: "Kitwa gi Timbewa",
-          description: "Winj chenro, timbe, kod kit ngima mamiyo iluongowa ni jo-Luo",
+          description: "Ng’e nyasi, kitwa, kod timbewa ma nyiso kaka Onagi gin",
           image: culture
         }
       ]

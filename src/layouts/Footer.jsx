@@ -28,7 +28,7 @@ const Footer = ({ currentLanguage = 'luo' }) => {
       description: "Kano kod nyiso timbe mabeyo mag Onagi, dhowa, kod kitwa ne tiengewa kod ma nobi bangʼwa.",
       madeWith: "Olos gi",
       forCommunity: "ne oganda Luo",
-      copyright: " 2025 Chenro mar Timbe Hundhwe. Ratiro duto magwa.",
+      copyright: " 2025 Hundhwe Cultural Heritage. All rights reserved.",
       links: [
         { title: "Chik mar Siri", href: "/privacy" },
         { title: "Chike mag Tiyo", href: "/terms" },

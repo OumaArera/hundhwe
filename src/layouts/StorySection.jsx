@@ -25,7 +25,7 @@ const StorySection = ({ currentLanguage }) => {
       badge: "Ageto wa",
       title: "Olalo mar kinde mokalo gi mabiro",
       description: "Sigana ka sigana, wende ka wende, timbe duto mag oganda ting’o rieko mar kwerewa machon. E Hundhwe, waketo e chunywa ni rito gik machon mag kitwa ok en mana ng’iyo gik ma ne otimore chon—en gero mise ma tieng' mabiro biro biro chung’ie.",
-      quote: "Ung'eni dher ariemba inyiedho ka ing'iyo rangach.",
+      quote: "Dher ariemba inyiedho ka ing'iyo rangach.",
       author: "Ngech Luo",
       features: [
         "Kano sigana e yor mbui",
