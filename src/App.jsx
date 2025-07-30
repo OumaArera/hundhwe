@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './layouts/Header';
 import Footer from './layouts/Footer';
 import Home from './layouts/Home';
+import Animals from './components/animals/Animals';
 import './App.css'
 
 function App() {
@@ -18,8 +19,8 @@ function App() {
         <main className="flex-grow pt-0">
           <Routes>
              <Route path="/" element={<Home currentLanguage={currentLanguage} />} />
-            {/*<Route path="/about/mission" element={<Mission />} />
-            <Route path="/about/values" element={<CommunityValues />} />
+            <Route path="/language/animals" element={<Animals language={currentLanguage} />} />
+            {/*<Route path="/about/values" element={<CommunityValues />} />
             <Route path="/about/team" element={<LeadershipTeam />} />
             <Route path="/about/stories" element={<SuccessStories />} />
             <Route path="/professionals/browse" element={<BrowseProfessionals />} />
