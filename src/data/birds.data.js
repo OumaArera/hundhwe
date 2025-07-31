@@ -63,7 +63,7 @@ export const animalsData =[
         },
         isFacingExtinction: false,
         likes:211,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",
@@ -93,7 +93,7 @@ export const animalsData =[
         },
         isFacingExtinction: false,
         likes:78,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",
@@ -123,7 +123,7 @@ export const animalsData =[
         },
         isFacingExtinction: false,
         likes:78,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",
@@ -153,7 +153,7 @@ export const animalsData =[
         },
         isFacingExtinction: false,
         likes:15,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",
@@ -183,7 +183,7 @@ export const animalsData =[
         },
         isFacingExtinction: false,
         likes:15,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",
@@ -213,7 +213,7 @@ export const animalsData =[
         },
         isFacingExtinction: false,
         likes:15,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",
@@ -243,7 +243,7 @@ export const animalsData =[
         },
         isFacingExtinction: false,
         likes:15,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",
@@ -273,7 +273,7 @@ export const animalsData =[
         },
         isFacingExtinction: true,
         likes:15,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",
@@ -303,7 +303,7 @@ export const animalsData =[
         },
         isFacingExtinction: true,
         likes:5,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",
@@ -333,7 +333,7 @@ export const animalsData =[
         },
         isFacingExtinction: true,
         likes:12,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",
@@ -363,7 +363,7 @@ export const animalsData =[
         },
         isFacingExtinction: false,
         likes:49,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",
@@ -393,7 +393,7 @@ export const animalsData =[
         },
         isFacingExtinction: false,
         likes:14,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: []
     },
     {
@@ -414,7 +414,7 @@ export const animalsData =[
         },
         isFacingExtinction: false,
         likes:9,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",
@@ -444,7 +444,7 @@ export const animalsData =[
         },
         isFacingExtinction: false,
         likes:19,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",
@@ -474,7 +474,7 @@ export const animalsData =[
         },
         isFacingExtinction: false,
         likes:99,
-        type: "Bird",
+        type: {'en': "Bird", 'luo': "Winyo"},
         comments: [
             {
                 user: "Rambung' Fee",

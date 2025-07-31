@@ -29,7 +29,7 @@ const AnimalCard = ({ animal, currentLanguage, onToggleLanguage, onLike, onAddCo
               {animal.name[currentLanguage]}
             </h3>
             <p className="text-sm text-gray-500 mb-2">
-              {animal.type} • {currentLanguage === 'en' ? 'Type' : 'Kit'}
+              {currentLanguage === 'en' ? 'Type' : 'Kit'} • {animal.type[currentLanguage]}
             </p>
           </div>
 
