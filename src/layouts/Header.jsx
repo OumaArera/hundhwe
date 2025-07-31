@@ -82,7 +82,7 @@ const Header = ({currentLanguage, setCurrentLanguage}) => {
         luoTitle: "Luo Language",
         icon: Languages,
         items: [
-          { title: "Aluora", luoTitle: "Nature", icon: TreePine, href: "/language/nature" },
+          { title: "Yien", luoTitle: "Plants", icon: TreePine, href: "/language/nature" },
           { title: "Lee", luoTitle: "Animals", icon: PawPrint, href: "/language/animals" },
           { title: "Dend dhano", luoTitle: "Human Body", icon: Users, href: "/language/body" },
           { title: "Chiemo kod gige tedo", luoTitle: "Food and Utensils", icon: UtensilsCrossed, href: "/language/food" },
