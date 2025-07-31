@@ -319,7 +319,7 @@ export const animalsData =[
         id: 1,
         name: {
             "en": "Grey-headed Sparrow",
-            "luo": "Abang'chieth"
+            "luo": "Abang' Chieth"
         },
         description: {
             "en": "A small, adaptable bird often found near human settlements. Recognized by its grey head and brown body.",
